@@ -1,5 +1,3 @@
-if getgenv().Aiming then return getgenv().Aiming end
-
 -- // Services
 local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
@@ -40,7 +38,7 @@ getgenv().Aiming = {
     FOVSides = 12,
     FOVColour = Color3fromRGB(231, 84, 128),
     VisibleCheck = true,
-    FOV = 500,
+    FOV = 200,
     HitChance = 100,
     Selected = LocalPlayer,
     SelectedPart = nil,
